@@ -1,0 +1,15 @@
+D:\Proyectos\C#\Lab03-Fundamentos\bin\Debug\net10.0\Lab03-Fundamentos.exe
+D:\Proyectos\C#\Lab03-Fundamentos\bin\Debug\net10.0\Lab03-Fundamentos.deps.json
+D:\Proyectos\C#\Lab03-Fundamentos\bin\Debug\net10.0\Lab03-Fundamentos.runtimeconfig.json
+D:\Proyectos\C#\Lab03-Fundamentos\bin\Debug\net10.0\Lab03-Fundamentos.dll
+D:\Proyectos\C#\Lab03-Fundamentos\bin\Debug\net10.0\Lab03-Fundamentos.pdb
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.AssemblyInfoInputs.cache
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.AssemblyInfo.cs
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.csproj.CoreCompileInputs.cache
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.sourcelink.json
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.dll
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\refint\Lab03-Fundamentos.dll
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.pdb
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\Lab03-Fundamentos.genruntimeconfig.cache
+D:\Proyectos\C#\Lab03-Fundamentos\obj\Debug\net10.0\ref\Lab03-Fundamentos.dll
