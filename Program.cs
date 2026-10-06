@@ -20,3 +20,25 @@ for (int i = 0; i < numeros.Length; i++)
 {
     Console.WriteLine(numeros[i]);
 }
+
+//Solicitar al usuario un número para buscar en el arreglo
+Console.WriteLine("Ingrese un número para buscar en el arreglo:");
+int numeroABuscar = Convert.ToInt32(Console.ReadLine());
+
+//Buscar el número en el arreglo
+bool encontrado = false;
+for (int i = 0; i < numeros.Length; i++)
+{
+    if (numeros[i] == numeroABuscar)
+    {
+        Console.WriteLine("El número {0} se encuentra en el índice {1}", numeroABuscar, i);
+        encontrado = true;
+        break;
+    }
+}
+
+if (!encontrado)
+{
+    Console.WriteLine("El número {0} no se encuentra en el arreglo", numeroABuscar);
+}
+
