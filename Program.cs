@@ -42,3 +42,26 @@ if (!encontrado)
     Console.WriteLine("El número {0} no se encuentra en el arreglo", numeroABuscar);
 }
 
+//Crear una matriz de 3x3
+int[,] matriz = new int[3, 3];
+
+//Solicitar al usuario que ingrese los valores para la matriz
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        Console.WriteLine("Ingrese el valor para la posición [{0},{1}]:", i, j);
+        matriz[i, j] = Convert.ToInt32(Console.ReadLine());
+    }
+}
+
+//Recorrer la matriz y mostrar sus valores en la consola
+Console.WriteLine("Los valores de la matriz son:");
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        Console.Write(matriz[i, j] + " ");
+    }
+    Console.WriteLine();
+}
