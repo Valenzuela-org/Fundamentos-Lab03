@@ -65,3 +65,14 @@ for (int i = 0; i < 3; i++)
     }
     Console.WriteLine();
 }
+
+//Crear una variable para almacenar la suma de los elementos de la matriz
+int suma = 0;
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        suma += matriz[i, j];
+    }
+}
+Console.WriteLine("La suma de los elementos de la matriz es: " + suma);
