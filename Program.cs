@@ -172,3 +172,33 @@ foreach (int numero in listaDesordenada)
 {
     Console.WriteLine(numero);
 }
+
+//Crear una nueva lista de números desordenados y ordenarlos con selection sort
+List<int> listaDesordenada2 = new List<int> { 34, 12, 56, 78, 23, 45, 67, 89, 10 };
+Console.WriteLine("Lista desordenada 2:");
+foreach (int numero in listaDesordenada2)
+{
+    Console.WriteLine(numero);
+}
+
+//Ordenar y mostrar la lista con selection sort
+for (int i = 0; i < listaDesordenada2.Count - 1; i++)
+{
+    int minIndex = i;
+    for (int j = i + 1; j < listaDesordenada2.Count; j++)
+    {
+        if (listaDesordenada2[j] < listaDesordenada2[minIndex])
+        {
+            minIndex = j;
+        }
+    }
+    // Intercambiar
+    int temp = listaDesordenada2[minIndex];
+    listaDesordenada2[minIndex] = listaDesordenada2[i];
+    listaDesordenada2[i] = temp;
+}
+Console.WriteLine("Lista ordenada 2:");
+foreach (int numero in listaDesordenada2)
+{
+    Console.WriteLine(numero);
+}
