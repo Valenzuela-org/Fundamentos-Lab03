@@ -115,6 +115,17 @@ do
             }
             break;
         case 3:
+            Console.WriteLine("Ingrese el número que desea buscar en la lista:");
+            int numeroABuscarLista = Convert.ToInt32(Console.ReadLine());
+            int indice = listaNumeros.IndexOf(numeroABuscarLista);
+            if (indice != -1)
+            {
+                Console.WriteLine("El número {0} se encuentra en el índice {1}", numeroABuscarLista, indice);
+            }
+            else
+            {
+                Console.WriteLine("El número {0} no se encuentra en la lista", numeroABuscarLista);
+            }
             break;
         case 4:
             Console.WriteLine("Los elementos de la lista son:");
