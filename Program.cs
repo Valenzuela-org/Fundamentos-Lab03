@@ -96,12 +96,21 @@ do
     switch (opcion)
     {
         case 1:
+            Console.WriteLine("Ingrese un número para insertar en la lista:");
+            int numeroAInsertar = Convert.ToInt32(Console.ReadLine());
+            listaNumeros.Add(numeroAInsertar);
+            Console.WriteLine("Número insertado correctamente.");
             break;
         case 2:
             break;
         case 3:
             break;
         case 4:
+            Console.WriteLine("Los elementos de la lista son:");
+            foreach (int numero in listaNumeros)
+            {
+                Console.WriteLine(numero);
+            }
             break;
         case 5:
             Console.WriteLine("Saliendo del programa...");
