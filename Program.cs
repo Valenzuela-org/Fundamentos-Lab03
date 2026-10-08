@@ -102,6 +102,17 @@ do
             Console.WriteLine("Número insertado correctamente.");
             break;
         case 2:
+            Console.WriteLine("Ingrese la posición del elemento que desea eliminar (0 a {0}):", listaNumeros.Count - 1);
+            int posicionAEliminar = Convert.ToInt32(Console.ReadLine());
+            if (posicionAEliminar >= 0 && posicionAEliminar < listaNumeros.Count)
+            {
+                listaNumeros.RemoveAt(posicionAEliminar);
+                Console.WriteLine("Elemento eliminado correctamente.");
+            }
+            else
+            {
+                Console.WriteLine("Posición no válida.");
+            }
             break;
         case 3:
             break;
