@@ -142,3 +142,33 @@ do
             break;
     }
 } while (opcion != 5);
+
+//Crear una lista de números desordenados y ordenarlos con bubble sort
+List<int> listaDesordenada = new List<int> { 34, 12, 56, 78, 23, 45, 67, 89, 10 };
+Console.WriteLine("Lista desordenada:");
+foreach (int numero in listaDesordenada)
+{
+    Console.WriteLine(numero);
+}
+
+//Ordenar la lista con bubble sort
+for (int i = 0; i < listaDesordenada.Count - 1; i++)
+{
+    for (int j = 0; j < listaDesordenada.Count - i - 1; j++)
+    {
+        if (listaDesordenada[j] > listaDesordenada[j + 1])
+        {
+            // Intercambiar
+            int temp = listaDesordenada[j];
+            listaDesordenada[j] = listaDesordenada[j + 1];
+            listaDesordenada[j + 1] = temp;
+        }
+    }
+}
+
+//Mostrar la lista ordenada
+Console.WriteLine("Lista ordenada:");
+foreach (int numero in listaDesordenada)
+{
+    Console.WriteLine(numero);
+}
