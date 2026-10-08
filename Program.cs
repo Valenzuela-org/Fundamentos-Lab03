@@ -76,3 +76,38 @@ for (int i = 0; i < 3; i++)
     }
 }
 Console.WriteLine("La suma de los elementos de la matriz es: " + suma);
+
+//Crear una lista dinámica de números enteros
+List<int> listaNumeros = new List<int>();
+
+//Crear un menú de opciones que se repita hasta que el usuario decida salir
+int opcion;
+do
+{
+    Console.WriteLine("Menú de opciones:");
+    Console.WriteLine("1. Insertar elemento");
+    Console.WriteLine("2. Eliminar por posición");
+    Console.WriteLine("3. Buscar elemento");
+    Console.WriteLine("4. Mostrar lista");
+    Console.WriteLine("5. Salir");
+    Console.Write("Seleccione una opción: ");
+    opcion = Convert.ToInt32(Console.ReadLine());
+    
+    switch (opcion)
+    {
+        case 1:
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            Console.WriteLine("Saliendo del programa...");
+            break;
+        default:
+            Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
+            break;
+    }
+} while (opcion != 5);
